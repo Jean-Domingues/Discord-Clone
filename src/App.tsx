@@ -1,14 +1,15 @@
 import React from 'react';
 
-import GlobalStyle from './style/GlobalStyles'
+import GlobalStyle from './style/GlobalStyles';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>Discord</h1>
+     <Layout />
     </>
-  )
+  );
 }
 
 export default App;
