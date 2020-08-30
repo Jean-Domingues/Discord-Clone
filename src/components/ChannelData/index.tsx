@@ -20,7 +20,7 @@ const ChannelData: React.FC = () => {
     <Container>
       <Messages ref={messagesRef}>
         {Array.from(Array(40).keys()).map((n) => (
-          <ChannelMessage author='Jean Domingues' date='28/08/2020' content='Oi, meu nome é jean' />
+          <ChannelMessage author='Jean Domingues' date='28/08/2020' content='Quer fechar squad?' />
         ))}
 
         <ChannelMessage
